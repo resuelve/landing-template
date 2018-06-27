@@ -1,0 +1,19 @@
+version: "3"
+services:
+  development:
+    build: .
+    container_name: lego-landing
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
+    ports:
+      - '${PORT}:${PORT}'
+      - '35729:35729'
+    command: npm run dev
+  build:
+    build: .
+    container_name: lego-builder
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
+    command: npm run build

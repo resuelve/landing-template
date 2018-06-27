@@ -1,0 +1,15 @@
+{
+  "name": "my-awesome-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node start server",
+    "build": "node start build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@resuelve/lego-landing": "^1.0.5"
+  }
+}
