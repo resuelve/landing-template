@@ -3,13 +3,13 @@ landing-template
 
 Este es el template para empezar a armar landings usando lego-landing.  
 
-## Para empezar:
+## Para empezar
 
 - Descarga este repositorio (no lo clones o vas a tener que borrar el remote)
 - Corre `make boostrap`. Esto va a crear el setup inicial y montar la imagen
 - Listo. Solo pon tus directorios de tus landings dentro de `/sites`
 
-## Scaffolding:
+## Scaffolding
 
 La estructura de archivos debe ser así:
 
@@ -29,7 +29,7 @@ Todo lo que esté dentro de `sites/mi-landing/assets/` será copiado 1 a 1 a `di
 Con excepción de lo que se encuentre dentro de `sites/mi-landing/assets/styles` que será parseado por sass, los archivos que empiecen con `_` serán ignorados y los `.sass` se convertirán a `.css`  
 De la misma forma se tratan los arhivos `.pug` que se encuentran directo dentro del landing.
 
-## Configuración:
+## Configuración
 
 Para env-dev se monta un servidor web en el puerto que definas en el .env
 
