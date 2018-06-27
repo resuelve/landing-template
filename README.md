@@ -39,4 +39,4 @@ Casi siempre solo utilizarás `make dev` para levantar el server y `make stop` p
 
 ## Para generar los dist
 
-Simplemente corre `make` build y deja que la magia funcione. Los resultados se verán en `dist/`
+Simplemente corre `make build` y deja que la magia funcione. Los resultados se verán en `dist/`
