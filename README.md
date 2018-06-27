@@ -31,7 +31,7 @@ De la misma forma se tratan los arhivos `.pug` que se encuentran directo dentro 
 
 ## Configuración
 
-Para env-dev se monta un servidor web en el puerto que definas en el .env
+Para env-dev se monta un servidor web en el puerto que definas en el `.env`
 
 ## Para desarrollo
 
