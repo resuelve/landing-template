@@ -3,7 +3,7 @@ landing-template
 
 Este es el template para empezar a armar landings usando lego-landing.  
 
-## Para empezar:
+## Para empezar:
 
 - Descarga este repositorio (no lo clones o vas a tener que borrar el remote)
 - Corre `make boostrap`. Esto va a crear el setup inicial y montar la imagen
