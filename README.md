@@ -1,4 +1,4 @@
-landing-template  
+Lego landing
 ====================================  
 
 Este es el template para empezar a armar landings usando lego-landing.  
